@@ -1,0 +1,4 @@
+1. Favicons
+2. How to add image from local system
+3. How our website layout should look like
+4. Tables in HTML
