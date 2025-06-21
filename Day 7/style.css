@@ -1,0 +1,28 @@
+/* Comment in CSS */
+/* 
+Mesurements Units
+1rem = 16px
+1em = 16px 
+*/
+
+.para {
+  text-align: end;
+  text-align: center;
+}
+
+.para2 {
+  text-align: justify;
+}
+
+.anchor {
+  text-decoration: underline;
+  text-decoration: none;
+}
+
+.name {
+  letter-spacing: 20px;
+}
+
+.mywords {
+  word-spacing: 20px;
+}

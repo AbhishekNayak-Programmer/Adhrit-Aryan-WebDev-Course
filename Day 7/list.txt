@@ -1,0 +1,16 @@
+1. Comments in CSS
+2. Mesurements Rem em px
+3. Text Property - Align
+4. Text Decoration
+5. Letter Spacing and word spacing 
+6. Text Transform - Casings 
+7. Font Style
+8. Font Family
+9. Add Google fonts
+10. List styles in CSS
+11. Borders and Border Radius
+12. Margins
+13. Paddings
+14. Box Models
+15. Add images using CSS
+16. Hover Effects
