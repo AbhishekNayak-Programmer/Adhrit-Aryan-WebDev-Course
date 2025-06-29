@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster&family=Manufacturing+Consent&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+.name {
+  text-transform: uppercase;
+  text-transform: lowercase;
+  /* The last declared property in a class has more priotity than above declared property */
+  text-transform: capitalize;
+
+  font-style: italic;
+  font-style: normal;
+  font-family: "Manufacturing Consent", system-ui;
+}
+
+.student {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.lists li {
+  list-style: square;
+  list-style: circle;
+  list-style: disc;
+  list-style: georgian;
+  list-style: lower-alpha;
+  list-style: upper-alpha;
+  list-style: none;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  border: 10px ridge greenyellow;
+  border: 10px inset greenyellow;
+  border: 10px outset greenyellow;
+  border: 10px dotted greenyellow;
+  border: 10px dashed greenyellow;
+  border: 10px solid greenyellow;
+
+  border-right: 10px solid blue;
+  border-left: 10px solid crimson;
+  border-top: 10px solid green;
+  border-bottom: 10px solid saddlebrown;
+
+  border-radius: 50%;
+}
+
+/* Homework */
+/* 1. Add a image from pexels and give diffrent borders to it and make it rounded */
