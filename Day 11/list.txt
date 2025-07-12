@@ -1,0 +1,14 @@
+1. Select & Options
+2. Text Transform - Casings 
+3. Font Style
+4. Font Family
+5. Add Google fonts
+6. List styles in CSS
+7. Borders and Border Radius
+
+// Will be continued 
+8. Margins
+9. Paddings
+10. Box Models
+11. Add images using CSS
+12. Hover Effects
