@@ -1,0 +1,6 @@
+1. Margins
+2. Paddings
+3. Box Models
+4. Add images using CSS
+5. Hover Effects
+6. Transition

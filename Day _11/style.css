@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.box {
+  border: 2px solid red;
+  padding: 20px;
+  margin: 20px;
+  background: lightblue;
+
+  padding: 10px 20px 30px 40px;
+  margin: 0px 10px 20px 30px;
+  transition: all 1s;
+}
+
+.box:hover {
+  background: blue;
+  font-size: 40px;
+  border: 10px ridge crimson;
+}
+
+.myImage {
+  border: 4px solid green;
+  height: 250px;
+  width: 400px;
+  background: url("https://images.pexels.com/photos/792381/pexels-photo-792381.jpeg")
+    center center/cover;
+  transition: all 3s;
+}
+
+.myImage:hover {
+  background: url("https://images.pexels.com/photos/357159/pexels-photo-357159.jpeg")
+    center center/cover;
+  border-radius: 50%;
+}
+
+/* Aryan */
+/* Add a image make it circular, add a border and when hovered image should change and height of image should increase */
+
+/* Adhrit */
+/* Add a image make it circular, add a border and when hovered image should change and width of image should increase */
+
+/*  */
