@@ -1,0 +1,20 @@
+1. Tables CSS
+2. Position
+
+To be Done
+3. Z-Index,Opacity
+4. Important
+5. Calc in CSS
+6. Root in CSS
+7. Border Image
+8. Transparent Background
+9. Min Height
+10. Min Width
+11. Max Height
+12. Max Width
+13. Text Overflow
+14. Clip Path
+15. Waves
+16. Color Pallete Websites
+17. Image Optimisation Sites
+18. Word Break - break-word & Hyphen auto

@@ -1,0 +1,58 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.table,
+th,
+td,
+tr {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: crimson;
+  position: relative;
+  left: 209px;
+  top: 100px;
+}
+
+.box2 {
+  height: 200px;
+  width: 200px;
+  background-color: green;
+  position: relative;
+  right: 20px;
+  bottom: 100px;
+}
+
+.box3 {
+  height: 200px;
+  width: 200px;
+  background-color: yellow;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.wp_img {
+  height: 40px;
+}
+
+.anchor {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+}
+
+.img {
+  position: sticky;
+  top: 20px;
+  right: 20px;
+  height: 200px;
+}
