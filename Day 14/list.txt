@@ -1,0 +1,14 @@
+1. Root in CSS
+2. Opacity
+3. Transparent Background
+4. Min Height
+5. Min Width
+6. Max Height
+7. Max Width
+8. Clip Path
+
+To be Done
+1. Waves
+2. Color Pallete Websites
+3. Image Optimisation Sites
+4. Word Break - break-word & Hyphen auto

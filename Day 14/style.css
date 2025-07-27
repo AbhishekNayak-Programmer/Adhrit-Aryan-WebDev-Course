@@ -1,0 +1,81 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: purple;
+  --secodary-color: blue;
+}
+
+.item {
+  height: 200px;
+  width: 200px;
+}
+
+.item1 {
+  background-color: var(--primary-color);
+}
+
+.item2 {
+  background-color: var(--secodary-color);
+}
+
+.item3 {
+  background-color: var(--primary-color);
+}
+
+.item4 {
+  background-color: var(--secodary-color);
+}
+
+.item5 {
+  background-color: var(--primary-color);
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  opacity: 0.6;
+  background: url("https://images.pexels.com/photos/32489805/pexels-photo-32489805.jpeg")
+    center center/cover;
+}
+
+body {
+  background: yellow;
+}
+
+.container {
+  min-height: 200px;
+  min-width: 200px;
+  max-width: 500px;
+  max-height: 500px;
+  border: 10px solid red;
+  background: transparent;
+}
+
+.box2 {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+}
+
+/* Homework
+1. Create pentagon, octagon, message using Clip Path
+2. Create a box having Transparent Background and have body background as #eee
+3. To use any color try using root for declaring variables
+*/
