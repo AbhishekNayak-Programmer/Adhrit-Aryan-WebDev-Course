@@ -1,0 +1,13 @@
+Waves, Color Pallete Websites, Image Optimisation Sites, Word Break - break-word & Hyphen auto
+
+To be Done
+5. Box Shadows
+6. Text Shadow
+7. Transform
+8. Animation
+9. Flex Box
+10. Image Gallary using Flex
+11. Grid
+12. Add image and linear gradient
+13. Margin Auto
+14. Some best Sites for Web Development Resources 
