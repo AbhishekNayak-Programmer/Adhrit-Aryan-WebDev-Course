@@ -1,0 +1,13 @@
+1. Box Shadows
+2. Text Shadow
+3. Transition
+4. Transform - Scale, Rotate, Skew
+
+To be Done
+4. Animation
+5. Flex Box
+6. Image Gallary using Flex
+7. Grid
+8. Add image and linear gradient
+9. Margin Auto
+10. Some best Sites for Web Development Resources
