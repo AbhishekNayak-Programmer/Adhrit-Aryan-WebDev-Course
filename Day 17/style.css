@@ -1,0 +1,63 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.card {
+  width: 320px;
+  border: 1px solid black;
+  margin-left: 300px;
+  margin-top: 200px;
+}
+
+.card__img {
+  height: 200px;
+  width: 320px;
+}
+
+.icons img {
+  height: 20px;
+  width: 20px;
+}
+
+h1,
+h2,
+h3,
+.icons {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  border: none;
+  padding: 10px 0;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: crimson;
+  animation: animate1 4s infinite linear;
+}
+
+@keyframes animate1 {
+  0% {
+    background-color: crimson;
+  }
+
+  30% {
+    background-color: blue;
+    height: 300px;
+    width: 300px;
+  }
+
+  70% {
+    background-color: yellow;
+    border-radius: 50%;
+  }
+}

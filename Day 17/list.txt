@@ -1,0 +1,10 @@
+1. Card Design
+2. Animation
+3. Some best Sites for Web Development Resources
+
+// To be Done
+1. Flex Box
+2. Image Gallary using Flex
+3. Grid
+4. Add image and linear gradient
+5. Margin Auto
