@@ -1,0 +1,7 @@
+1. Flex Box
+2. Image Gallary using Flex
+
+// To be Done
+3. Grid
+4. Add image and linear gradient
+5. Margin Auto
