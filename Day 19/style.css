@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  /* grid-template-columns: 600px 300px 400px; */
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px;
+  gap: 20px;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+}
+
+.box {
+  /* height: 200px; */
+  /* width: 200px; */
+  font-size: 50px;
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 
+.box:nth-child(1) {
+  background: url("") center center/cover;
+}
+
+.box:nth-child(2) {
+  background: url("") center center/cover;
+}
+
+.box:nth-child(3) {
+  background: url("") center center/cover;
+} */
+
+/* Homeworks 
+1. Design Keyboard : https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWrY8D1dwZGeqzd_bCkQEmMUvo69bV2Hpqxg&s
+*/
