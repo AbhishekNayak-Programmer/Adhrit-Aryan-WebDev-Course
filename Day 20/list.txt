@@ -1,0 +1,2 @@
+1. Add image and linear gradient
+2. Psuedo Classes - even, odd, before, after

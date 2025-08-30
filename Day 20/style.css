@@ -1,0 +1,60 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.keyboard {
+  border: 1px solid black;
+  padding: 10px;
+  color: black;
+  background-color: #fbfbfb;
+  width: 900px;
+  margin: 100px;
+}
+
+.container1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr;
+  margin-bottom: 6px;
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1.5fr;
+  margin-bottom: 6px;
+}
+
+.container3 {
+  display: grid;
+  grid-template-columns: 2.2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2.2fr;
+  margin-bottom: 6px;
+}
+
+.container4 {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2.5fr;
+  margin-bottom: 6px;
+}
+
+.container5 {
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 1.5fr 400px 1.5fr 1.5fr 1.5fr 1.5fr;
+}
+
+.keys {
+  height: 60px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  margin-right: 4px;
+}
+
+.image {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)),
+    url("https://images.pexels.com/photos/440731/pexels-photo-440731.jpeg")
+      center center/cover;
+}
