@@ -1,0 +1,6 @@
+1. Pseudo element - even, odd
+2. Filter All Properties 
+3. Media Queries
+
+// To be done
+4. Git and Github

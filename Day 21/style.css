@@ -1,0 +1,112 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  border: 2px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.children {
+  height: 200px;
+  width: 200px;
+}
+
+.children:nth-child(odd) {
+  background-color: crimson;
+}
+
+.children:nth-child(even) {
+  background-color: green;
+}
+
+.image {
+  height: 300px;
+  /* filter: blur(0.5px); */
+  /* filter: brightness(120%); */
+  /* filter: contrast(120%); */
+  filter: hue-rotate(450deg);
+}
+
+/*
+  Screen Resolutions 
+  Large Desktops, TVs, Projectors - 1600px and more 
+  Medium Sized Laptops and medium desktops - 1400px to 1600px
+  Small Sized Laptops (Ex: Mac) - 1200px to 1400px 
+  Small Desktops - 992px to 1200px
+  Big & Medium sized Tablets - 768px to 992px
+  Small Tablets - 576px to 768px
+  Big Screen Mobile - 400px to 576px
+  Regular Mobile phone - 340px t0 400px
+*/
+
+.container2 {
+  border: 5px solid red;
+}
+
+.box {
+  height: 500px;
+  width: 500px;
+  background: blue;
+}
+
+@media (max-width: 1600px) {
+  .box {
+    background: goldenrod;
+    height: 400px;
+    width: 400px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .box {
+    background: crimson;
+  }
+}
+
+@media (max-width: 1200px) {
+  .box {
+    background: teal;
+    height: 350px;
+    width: 350px;
+  }
+}
+
+@media (max-width: 992px) {
+  .box {
+    height: 300px;
+    background-color: saddlebrown;
+  }
+}
+
+@media (max-width: 768px) {
+  .box {
+    height: 200px;
+    background-color: aqua;
+  }
+}
+
+@media (max-width: 576px) {
+  .box {
+    width: 200px;
+    background-color: darkblue;
+  }
+}
+
+@media (max-width: 400px) {
+  .box {
+    background-color: tomato;
+  }
+}
+
+@media (max-width: 340px) {
+  .box {
+    background-color: yellowgreen;
+  }
+}
