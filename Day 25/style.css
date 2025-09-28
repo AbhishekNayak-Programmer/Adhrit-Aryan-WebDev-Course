@@ -1,0 +1,159 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),
+    url("./bg.jpg") center center/cover;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 120px;
+}
+
+.logo {
+  height: 40px;
+}
+
+.sign_in_btn,
+.user_action_btn {
+  background-color: #c21119;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 7px 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.btns_list {
+  display: flex;
+  gap: 20px;
+}
+
+.nav_select {
+  background-color: #0000008c;
+  color: #fff;
+  outline: none;
+  border: none;
+  padding: 7px 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.text_content {
+  margin-top: 120px;
+  color: #fff;
+  display: grid;
+  place-content: center;
+  row-gap: 16px;
+}
+
+.text_content h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+.text_content h2 {
+  font-size: 55px;
+  text-align: center;
+}
+
+.text_content h5 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.text_content p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.user_action_input {
+  background-color: #0000009b;
+  font-size: 20px;
+  padding: 10px;
+  outline: none;
+  border: 1px solid grey;
+  border-radius: 5px;
+  width: 60%;
+}
+
+.user_action_btn {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+body {
+  background-color: #090112;
+  color: #fff;
+}
+
+.trending_section,
+.join_container {
+  padding: 40px 120px;
+  display: grid;
+  row-gap: 20px;
+  grid-template-rows: 32px auto;
+}
+
+.trending_section h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.movies_list,
+.cards_list {
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+.movies_list img {
+  height: 340px;
+  width: 250px;
+  transition: all 0.3s;
+  border-radius: 20px;
+}
+
+.movies_list img:hover {
+  transform: scale(1.05);
+}
+
+.cards_list {
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-image: linear-gradient(177.6deg, #1a2144 15.3%, #1e162a 91.3%);
+  border-radius: 20px;
+  padding: 30px 20px 50px 20px;
+  position: relative;
+  width: 280px;
+}
+
+.card h3 {
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.card p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.card_icon {
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
