@@ -1,0 +1,12 @@
+1. What is JavaScript
+2. Connecting the JavaScript Ways
+3. Console & log, Template Literals
+4. Arithmetic Operators in JavaScript (+, -, *, /)
+
+// To be done 
+1. Variables - Let, Const, Var
+2. Datatypes - str, num, bool, undefined, null, object
+3. Math Methods
+4. Document in JavaScript
+5. Selecting Id and Classes using JavaScript
+6. Dynamic Typed, doubts - Box Sizing Border Box
