@@ -1,0 +1,8 @@
+1. Variables - Let, Const, Var
+2. Datatypes - str, num, bool, undefined, null, object
+3. Math Methods
+
+// To be done 
+4. Document in JavaScript
+5. Selecting Id and Classes using JavaScript
+6. Dynamic Typed, doubts - Box Sizing Border Box
