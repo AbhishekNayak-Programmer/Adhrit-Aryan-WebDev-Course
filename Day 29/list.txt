@@ -1,0 +1,4 @@
+// To be done 
+1. Document in JavaScript
+2. Selecting Id and Classes using JavaScript
+3. Dynamicaly Typed
